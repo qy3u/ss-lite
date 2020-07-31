@@ -13,7 +13,7 @@ pub fn gen_rand_password() -> Password {
     result
 }
 
-struct Cipher {
+pub struct Cipher {
     encode_password: Password,
     decode_password: Password,
 }
